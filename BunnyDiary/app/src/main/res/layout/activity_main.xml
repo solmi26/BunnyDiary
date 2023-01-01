@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!-- 리니어 레이아웃 : orientation 방향으로 쌓아 나감-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/image_logo_bunny"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bunny's Diary"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <!--LIST-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDiary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        tools:listitem="@layout/list_item_diary"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
+
+    <!--WRITE_BUTTON-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        app:backgroundTint="#F08888"
+        app:tint="@color/white"
+        android:src="@drawable/img_pencil"/>
+</FrameLayout>
