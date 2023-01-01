@@ -8,7 +8,6 @@
 ![(7-11) 일기장만들기](https://user-images.githubusercontent.com/103156290/210167033-dfb508d3-86ba-437e-99f7-d43ecee6a7f6.jpg)
 ![(8-11) 일기장만들기](https://user-images.githubusercontent.com/103156290/210167087-47b06196-4da4-46c2-84b1-8626fd451662.jpg)
 ![(9-11) 일기장만들기](https://user-images.githubusercontent.com/103156290/210167039-2eaa04d1-b569-4903-8f12-356c0b19b172.jpg)
--8dad-9da71a699d96.jpg)
 ![(10-11) 일기장만들기](https://user-images.githubusercontent.com/103156290/210167041-d98f5c8b-02b2-4335-8ba5-e76416708ba7.jpg)
 ![(11-11) 일기장만들기](https://user-images.githubusercontent.com/103156290/210167044-cfdfc90f-2b8e-48e9-96cd-26c05a57038e.jpg)
 
